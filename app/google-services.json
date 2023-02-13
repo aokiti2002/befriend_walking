@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "157032201157",
+    "project_id": "befriend-walking",
+    "storage_bucket": "befriend-walking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157032201157:android:ef14bbaa57147f91d629ac",
+        "android_client_info": {
+          "package_name": "com.example.befriend_walking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157032201157-u3mqd8u2mooafg4idb33an26tn2vjv3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLSQIgSBMumdxDx8LePHwtw3ZXHzlQ1oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157032201157-u3mqd8u2mooafg4idb33an26tn2vjv3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

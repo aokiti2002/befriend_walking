@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/walkFragment"
+        android:icon="@drawable/walk"
+        android:title="歩く" />
+
+    <item
+        android:id="@+id/talkFragment"
+        android:icon="@drawable/talk"
+        android:title="話す" />
+
+    <item
+        android:id="@+id/userFragment"
+        android:icon="@drawable/user"
+        android:title="記録" />
+</menu>

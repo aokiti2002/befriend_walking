@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0D8EF" >
+
+    <ImageView
+        android:id="@+id/logo_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_2" />
+
+    <TextView
+        android:id="@+id/input2_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="あなたの年代を選択してください"
+        android:textColor="#2b2b2b"
+        android:textSize="20dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_2" />
+
+    <LinearLayout
+        android:id="@+id/input2_btn1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2_txt1" >
+        <Button
+            android:id="@+id/input2_btn1_1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="60"
+            android:textSize="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp" />
+        <Button
+            android:id="@+id/input2_btn1_2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="70"
+            android:textSize="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp" />
+        <Button
+            android:id="@+id/input2_btn1_3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="80"
+            android:textSize="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp" />
+        <Button
+            android:id="@+id/input2_btn1_4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="90"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/input2_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別を選んでください"
+        android:textColor="#2b2b2b"
+        android:textSize="20dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2_btn1" />
+
+    <LinearLayout
+        android:id="@+id/input2_btn2"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2_txt2" >
+        <Button
+            android:id="@+id/input2_btn2_1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="男"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+        <Button
+            android:id="@+id/input2_btn2_2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="女"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+        <Button
+            android:id="@+id/input2_btn2_3"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@drawable/input_button"
+            android:text="その他"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input2_btn3"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2_btn2" >
+        <ImageButton
+            android:id="@+id/input2_btn3_1"
+            app:srcCompat="@drawable/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0D8EF"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+        <ImageButton
+            android:id="@+id/input2_btn3_2"
+            app:srcCompat="@drawable/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0D8EF"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
